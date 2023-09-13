@@ -4,6 +4,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="dhcp.css">
+<title>Dynamic Host Configuration Protocol</title>
 </head>
 
 <body style="background-color:white;">
@@ -21,6 +23,43 @@
     </div>
   </div> 
 </div>
+
+<h1>Mi az a DHCP és hogyan működik?</h1>
+<div style="overflow-x: auto;">
+  
+  <table>
+    <tr>
+          <td>
+            A DHCP egy fedél alatti mechanizmus, amely automatizálja az IP-címek hozzárendelését a vezetékes vagy vezeték nélküli fix és mobil gazdagépekhez.<br>
+  
+            Amikor egy eszköz hozzá akar férni egy DHCP-t használó hálózathoz, kérést küld egy DHCP-kiszolgáló által felvett IP-címre.<br> A szerver válaszként IP-címet küld az eszköznek, majd figyeli a cím használatát, és egy meghatározott idő elteltével vagy az eszköz leállása után visszaveszi.
+  
+          </td>
+          <td>
+              
+          </td>
+    </tr>
+  
+  </table>
+</div>
+
+<h2>A DHCP Előnyei</h2>
+
+<ol>
+<li>Megbízható IP-cím konfiguráció</li>
+  <p>Nem lehet két felhasználója ugyanazzal az IP-címmel, mert az ütközést eredményezne, ha az egyik vagy mindkét eszköz nem tud csatlakozni a hálózathoz.
+
+    <br>A DHCP kiküszöböli az emberi hibákat, így minimálisra csökken a címütközések, a konfigurációs hibák vagy az egyszerű elírási hibák.</p>
+<li>Csökkentett hálózati adminisztráció</li>
+    <p>A DHCP központosított és automatizált TCP/IP konfigurációt biztosít. DHCP közvetítő ügynök telepítésével nincs szükség DHCP-kiszolgálóra minden alhálózaton.</p>
+<li>Mobilitás</li>
+<p>A DHCP hatékonyan kezeli a vezetékes vagy vezeték nélküli hálózatokon különböző helyekre költöző, hordozható eszközöket használó felhasználók IP-címének módosításait.</p>
+<li>IP cím optimalizálás</li>
+<p>A DHCP nemcsak kiosztja a címeket, hanem automatikusan vissza is veszi és visszaküldi a készletbe, ha már nem használják.</p>
+<li>Hatékony változáskezelés</li>
+<p>A DHCP segítségével egy szervezet egyszerűen módosíthatja IP-címsémáját egyik címtartományról a másikra. A DHCP lehetővé teszi a hálózati rendszergazdák számára, hogy a végfelhasználók megzavarása nélkül hajtsák végre ezeket a változtatásokat.</p>
+</ol>
+
 
 </body>
 </html>
