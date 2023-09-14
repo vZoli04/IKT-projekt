@@ -9,3 +9,14 @@ img{width:500px ;}
     display: block;
     margin: 0 auto;
 }
+body{
+    
+        /* The image used */
+        background-image: url(kepek/hatter.jpg);
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+      
+}
