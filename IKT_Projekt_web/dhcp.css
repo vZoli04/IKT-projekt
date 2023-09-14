@@ -1,8 +1,13 @@
-body{
-    background-image:url(kepek/malyom.gif);
-}
-
+.bg {
+    /* The image used */
+    background-image: url(kepek/hatter.jpg);
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+  }
 #nyito{
-    color: white;
+    color: black;
     float: right;
 }
