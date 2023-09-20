@@ -10,15 +10,11 @@ img{width:500px ;}
     margin: 0 auto;
 }
 body{
-    
-        /* The image used */
-        background-image: url(kepek/hatter.jpg);
-      
-        /* Center and scale the image nicely */
+        background-color: rgb(48,48,48);
         background-position: center;
         background-size: cover;
         height: 100%;
-      
+        color: rgb(255, 36, 36);
 }
 
 footer {
@@ -29,6 +25,7 @@ footer {
 }
 
 .button {
+    float: right;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -44,4 +41,11 @@ footer {
 a{
     text-decoration: none;
     color: rgb(255, 36, 36);
+}
+
+header {
+    background-color: rgb(30, 30, 30);
+    color:rgb(255, 36, 36);
+    text-align: center;
+    padding: 20px;
 }
