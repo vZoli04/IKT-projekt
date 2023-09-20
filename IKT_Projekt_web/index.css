@@ -4,10 +4,26 @@ h1,h3{
 
 .bg {
     /* The image used */
-    background-image: url(kepek/hatter.jpg);
+    background-color: rgb(48, 48, 48);
   
     /* Center and scale the image nicely */
     background-position: center;
     background-size: cover;
     height: 100%;
   }
+
+h1{
+    font-size: 30pt;
+}
+
+h3{
+    font-size: 20pt;
+}
+
+p{
+    font-size: 16pt;
+    font-weight: bold;
+}
+body{
+    color:rgb(255, 36, 36);
+}
